@@ -1,6 +1,6 @@
 
 
-const book = {
+const book1 = {
     title: 'Clean Code',
     author: 'Robert Martin',
     pages: 464,
@@ -9,6 +9,10 @@ const book = {
 };
 //console.log(book.title);
 
-for (let key in book){
-    console.log(book[key]);
+const book2 = {}
+for (let key in book1){
+    book2[key] = book1[key];
 }
+console.log( book2);
+
+console.log(book1);
