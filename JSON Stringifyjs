@@ -1,0 +1,25 @@
+//JSON oU JavaScript Object Notation
+
+
+//metodo Json.stringify
+
+let a = JSON.stringify(10);
+console.log(a);
+
+let b = JSON.stringify("JAVASCRIPT");
+console.log(b);
+
+let c = JSON.stringify(true);
+console.log(c);
+
+let d = JSON.stringify(false);
+console.log(d);
+
+let e = JSON.stringify({name: "Self", paradigm: "OO"});
+console.log(e);
+
+let f = JSON.stringify([1,2,3,4,5,6,7,8,9]);
+console.log(f);
+
+let g = JSON.stringify(null);
+console.log(null);
